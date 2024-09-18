@@ -8,6 +8,8 @@ To build and run this project, you will need the following:
 
 - **C++ Compiler**: `g++` (part of MinGW on Windows) or equivalent
 - **CMake**: Version 3.30.3 or higher
+Note: This is because Multiconvert, specifically its `CMakeLists`, has `g++` specified within it.
+**Please make sure `CMakeLists.txt` is located in the same directory as the source file during compilation**
 
 ### Installation Instructions
 
