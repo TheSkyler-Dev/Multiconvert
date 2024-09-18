@@ -1,6 +1,5 @@
 # Multiconvert
-A repository for a basic scientific unit converter I am developing as a project in my Apprenticeship.  
-Contributions are welcome. No major releases yet.
+Multiconvert is a procedurally coded, terminal-based scientific unit converter that can convert time, temperature and mass.
 
 ## Dependencies
 
