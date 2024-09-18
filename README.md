@@ -1,5 +1,5 @@
 # Multiconvert
-A repository for a basic scientific unit converter I am developing as a project in my Apprenticeship.
+A repository for a basic scientific unit converter I am developing as a project in my Apprenticeship.  
 Contributions are welcome. No major releases yet.
 
 ## Dependencies
@@ -8,6 +8,7 @@ To build and run this project, you will need the following:
 
 - **C++ Compiler**: `g++` (part of MinGW on Windows) or equivalent
 - **CMake**: Version 3.30.3 or higher
+
 Note: This is because Multiconvert, specifically its `CMakeLists`, has `g++` specified within it.
 **Please make sure `CMakeLists.txt` is located in the same directory as the source file during compilation**
 
