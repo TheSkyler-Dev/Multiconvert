@@ -1,3 +1,34 @@
 # Multiconvert
 A repository for a basic scientific unit converter I am developing as a project in my Apprenticeship.
 Contributions are welcome. No major releases yet.
+
+## Dependencies
+
+To build and run this project, you will need the following:
+
+- **C++ Compiler**: `g++` (part of MinGW on Windows) or equivalent
+- **CMake**: Version 3.30.3 or higher
+
+### Installation Instructions
+
+1. **Install `g++` and `CMake`**:
+
+   - **On Windows**:
+     - Download and install [MinGW](https://www.mingw-w64.org/) to get `g++`.
+     - Download and install [CMake](https://cmake.org/download/).
+
+   - **On Linux**:
+     - Use your package manager to install `g++` and `CMake`. For example, on Debian-based systems:
+       ```bash
+       sudo apt-get install g++ cmake
+       ```
+
+   - **On macOS**:
+     - Install `g++` via [Homebrew](https://brew.sh/):
+       ```bash
+       brew install gcc
+       ```
+     - Install `CMake` via Homebrew:
+       ```bash
+       brew install cmake
+       ```
