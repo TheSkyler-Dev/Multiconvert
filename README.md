@@ -5,12 +5,12 @@ Multiconvert is a terminal-based scientific unit converter that can convert time
 
 To build and run this project, you will need the following:
 
-- **C++ Compiler**: `g++` (part of MinGW on Windows) or equivalent
+- **C++ Compiler**: `g++` or `clang++` (part of MinGW on Windows) or equivalent
 - **CMake**: Version 3.30.3 or higher
 
-Note: This is because Multiconvert, specifically its `CMakeLists`, has `g++` specified within it.
+Note: This is because Multiconvert, specifically its `CMakeLists`, has `g++` and `clang++` specified within it.
 
-**Please make sure `CMakeLists.txt` is located in the same directory as the source file during compilation.**
+**Please make sure `CMakeLists.txt` is located in the same directory as the source file during compilation due to the use of relative paths.**
 
 ### Installation Instructions
 
