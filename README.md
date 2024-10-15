@@ -1,5 +1,5 @@
 # Multiconvert
-Multiconvert is a terminal-based scientific unit converter that can convert time, temperature and mass.
+Multiconvert is a terminal-based scientific unit converter that can convert time, temperature and mass, as well as calculate the surface area and volume of spheres.
 
 ## Dependencies
 
