@@ -38,7 +38,6 @@ We welcome contributions! Here's how you can help:
 - New conversion types
 - Optimization improvements
 - Better error handling
-- UI improvements
 - Tests
 
 See CONTRIBUTING.md for detailed guidelines.
