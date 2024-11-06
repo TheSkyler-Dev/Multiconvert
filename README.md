@@ -20,8 +20,6 @@ Note: This project should be cross-compatible since `CMakeLists.txt` is set to a
 
 ### Installation Instructions
 
-### Installation Instructions
-
 1. **Install C++ Compiler and CMake**:
 
    - **Windows**: Install a C++ compiler such as MinGW or Visual Studio, and download CMake from [CMake.org](https://cmake.org/download/).
