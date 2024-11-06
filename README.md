@@ -40,4 +40,4 @@ We welcome contributions! Here's how you can help:
 - Better error handling
 - Tests
 
-See CONTRIBUTING.md for detailed guidelines.
+See [CONTRIBUTING.md](https://github.com/TheSkyler-Dev/Multiconvert/blob/main/CONTRIBUTING.md) for detailed guidelines.
