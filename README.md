@@ -1,5 +1,11 @@
 # Multiconvert
-Multiconvert is a terminal-based scientific unit converter that can convert time, temperature and mass, as well as calculate the surface area and volume of spheres.
+A comprehensive C++ unit conversion tool supporting multiple measurement types including:
+- Physical units (length, mass, volume, time)
+- Temperature
+- Speed and Energy
+- Digital storage
+- Electrical measurements
+- Geometric calculations
 
 ## Dependencies
 
@@ -21,7 +27,7 @@ Note: This is because Multiconvert, specifically its `CMakeLists`, has `g++` and
      - Download and install [CMake](https://cmake.org/download/).
 
    - **On Linux**:
-     - Use your package manager to install `g++` and `CMake`. For example, on Debian-based systems:
+     - Use your package manager to install `g++` or `clang` and `CMake`. For example, on Debian-based systems:
        ```bash
        sudo apt-get install g++ cmake
        ```
@@ -35,3 +41,14 @@ Note: This is because Multiconvert, specifically its `CMakeLists`, has `g++` and
        ```bash
        brew install cmake
        ```
+
+## Contributing
+We welcome contributions! Here's how you can help:
+- Bug fixes
+- New conversion types
+- Optimization improvements
+- Better error handling
+- UI improvements
+- Tests
+
+See CONTRIBUTING.md for detailed guidelines.
