@@ -7,7 +7,7 @@ A comprehensive C++ unit conversion tool supporting multiple measurement types i
 - Electrical measurements
 - Geometric calculations
 
-## Dependencies
+## Dependencies (only if you intend to build/compile from source, recommended when testing contributions)
 
 To build and run this project, you will need the following:
 
@@ -31,6 +31,9 @@ Note: This project should be cross-compatible since `CMakeLists.txt` is set to a
      ```bash
      brew install gcc cmake
      ```
+
+   **Please note that all releases since v0.9.0-alpha only include binaries (`.exe`, `.deb` etc.) and/or archives (`.zip`, `.tar.gz`)
+   after v0.9.0-alpha, the source code will be added as file archives to the release.** 
 
 ## Contributing
 We welcome contributions! Here's how you can help:
