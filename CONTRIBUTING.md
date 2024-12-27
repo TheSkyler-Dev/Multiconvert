@@ -14,7 +14,7 @@ Please follow these guidelines to ensure consistency and maintain high code qual
    ```bash
    git checkout -b feature-or-bugfix-branch
     ```
-## CodeSstandards
+## Code Standards
 To maintain code consistency and readability, please adhere to the following guidelines:
 
 1. ### Class Naming Conventions
