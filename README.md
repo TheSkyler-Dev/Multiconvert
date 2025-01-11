@@ -12,7 +12,7 @@ A comprehensive C++ unit conversion tool supporting multiple measurement types i
 To build and run this project, you will need the following:
 
 - **A C++ Compiler** that supports C++ 17 or later (e.g. `g++`, `clang/clang++`, `MSVC` etc.)
-- **CMake**: Version 3.10.0 or higher
+- **CMake**: Version 3.16.0 or higher
 
 Note: This project should be cross-compatible since `CMakeLists.txt` is set to automatically detect any compatible compilers.
 
