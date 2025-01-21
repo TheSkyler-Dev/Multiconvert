@@ -1,3 +1,6 @@
+![Static Badge](https://img.shields.io/badge/License-GPL%20v3.0-blue?style=flat)
+![Static Badge](https://img.shields.io/badge/Latest%20version-v1.0.0rc.1-orange?style=flat)
+
 # Multiconvert
 A comprehensive C++ unit conversion tool supporting multiple measurement types including:
 - Physical units (length, mass, volume, time)
