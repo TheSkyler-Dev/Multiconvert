@@ -30,6 +30,9 @@ To maintain code consistency and readability, please adhere to the following gui
    - If your contribution resolves an existing issue, **link the issue in your pull request** description.
    This helps maintain a clear connection between issues and code changes.
 
+4. ### Use of Variables
+   In order to prevent potential undefined behavior, it is good practice to **allways initialize variables with default values**. Default values are expected to convey the kind of value expected by the variable, e.g. `0.0` for floating point or doube floating point varables, `"defaultValue"` for string variables or `0` for integer variables. Uninitialized Variable can cause unpredictable results, undefined behavior and bugs that are hard to diagnose. Make sure all variables have defined values before bein used in expressions or passed to functions.
+
 ## Pull Request Process
 To ensure the quality of the codebase, all contributions go through a review process. Follow these steps to create a pull request:
 
@@ -49,6 +52,8 @@ To ensure the quality of the codebase, all contributions go through a review pro
 - **Line Length**: Limit lines to 80 characters where possible to improve readability.
 - **Naming**: Use descriptive and consistent names for variables and functions.
 - **No Warnings**: Ensure there are no compiler or linter warnings.
+
+Please be aware that some warnings may not be displayed consistently across all devices or environments. For example, certain compilers, IDEs, or terminal environments may not show  the same set of warnings, or they may suppress some warnings by default. Please make sure that code is properly reviewed and tested in a variety of environments to catch potential issues.
 
 ## Additional Information
 Feel free to reach out to the maintainers if you have questions or need guidance.  
